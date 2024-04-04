@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) throws JsonSyntaxException {
         Gson gson = new Gson();
 
-        Vehiculo vehiculo = new Vehiculo("Renault", "Cactus");
+        Vehiculo vehiculo = new Vehiculo("Toyota", "Yaris");
 
         String jsonVehiculo = gson.toJson(vehiculo);
         System.out.println("Objeto Vehículo convertido a JSON:");
